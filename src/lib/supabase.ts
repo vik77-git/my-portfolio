@@ -1,7 +1,7 @@
 import { createClient, SupabaseClient } from "@supabase/supabase-js";
 
 const supabaseUrl = import.meta.env.VITE_SUPABASE_URL || "";
-const supabaseKey = import.meta.env.VITE_SUPABASE_KEY || "";
+const supabaseKey = import.meta.env.VITE_SUPABASE_K || "";
 
 // Only create client if credentials are provided
 const noopResult = { data: null, error: { message: "Supabase not configured" } };
