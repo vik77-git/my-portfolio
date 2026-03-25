@@ -34,6 +34,6 @@ A dynamic portfolio showcasing the skills and interests of the author.
         └───smooth-responder
 
 
-- Built with ❤️
+                                                            Built with ❤️
 
 
