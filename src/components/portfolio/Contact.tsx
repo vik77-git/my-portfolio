@@ -25,7 +25,7 @@ const Contact = () => {
         import.meta.env.VITE_EMAILJS_SERVICE_ID,
         import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
         { from_name: form.name, reply_to: form.email, message: form.message },
-        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+        import.meta.env.VITE_EMAILJS_PUBLIC_K
       );
       toast({ title: "Message sent!", description: "I'll get back to you soon.", className: "bg-green-600 text-white border-green-700" });
       setForm({ name: "", email: "", message: "" });
