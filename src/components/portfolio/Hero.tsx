@@ -19,7 +19,7 @@ const Hero = () => {
               transition={{ duration: 0.5, delay: 0.1 }}
               className="font-display text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight text-foreground mb-2"
             >
-              John Doe
+              Vikram Udhayakumar
             </motion.h2>
             <p className="text-sm font-medium text-accent tracking-widest uppercase mb-8">
               Engineering Student
@@ -30,9 +30,9 @@ const Hero = () => {
               <span className="text-gradient">digital solutions</span>
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground max-w-xl leading-relaxed mb-10">
-              I craft performant, scalable systems with clean architecture
-              and thoughtful design. Passionate about learning and building
-              impactful software.
+              I'm a Computer Science student, craft scalable AI Syatems and 
+              sustinable products. Passionate about learning and building
+              impactful AI solutions.
             </p>
             <div className="flex flex-wrap gap-4">
               <Button variant="hero" size="lg" onClick={() => document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" })}>
